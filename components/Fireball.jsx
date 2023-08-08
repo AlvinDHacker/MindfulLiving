@@ -36,9 +36,9 @@ export default function Fireball() {
     return (
         <>
 
-            <div class="cell-wrapper">
-                <div class="cell-core"></div>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" class="cell">
+            <div className="cell-wrapper">
+                <div className="cell-core"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" className="cell">
                     <lineargradient id="cell-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
                         <stop id="startGradient" offset="0%">
                             <animate id="startGradientAnimation" attributeName="stop-color" repeatCount="indefinite"></animate>
