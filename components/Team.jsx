@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import TeamItem from './TeamItem'
+<<<<<<< HEAD
+=======
+import alvin from '../assets/alvin.jpg'
+>>>>>>> aef8aedcc3989088b56fd7a04f1baaca06b74926
 import joy from '../assets/image.jpg'
 import jayden from '../assets/jayden.png'
 import shaun from '../assets/shaun.jpeg'
@@ -7,7 +11,11 @@ import shaun from '../assets/shaun.jpeg'
 const Team = () => {
   const data = [
     {
+<<<<<<< HEAD
       img: "img/alvin.jpg",
+=======
+      img: alvin,
+>>>>>>> aef8aedcc3989088b56fd7a04f1baaca06b74926
       name: 'Alvin Dsouza',
       role: 'Full stack dev',
       inst: 'https://www.instagram.com/',
