@@ -4,7 +4,7 @@ import { Instagram, Github, Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <div>
-      <footer className="dark bg-slate-200 dark:bg-gray-900">
+      <footer className="bg-slate-200 dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">

@@ -9,13 +9,14 @@ import Navbar from "@/components/Navbar"
 import Team from "@/components/Team"
 import Projects from "@/components/Projects"
 import Footer from "@/components/Footer"
-import Hero2 from "@/components/Hero2"
+import About from "@/components/About"
 
 export default function Page() {
     return (
         <>
             <Navbar />
-            <Hero2 />
+            <Hero />
+            <About/>
             <Projects />
             <Team />
             <Contact />

@@ -1,20 +1,39 @@
-import React from "react";
+import { useEffect } from "react"
 import Glitch from "./Glitch";
-import Fireball from "./Fireball";
 
-const Hero = () => {
-  return (
-    <div id="home" className="h-screen flex items-center bg-grad">
-      <div className="flex justify-around w-full">
-        <div className="pt-5">
-          <h1 className="tech-head mt-5 mb-2">Tech</h1>
-          <h1 className="tech-head"><span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
-          <Glitch />
-        </div>
-        <div className=""><Fireball /></div>
-      </div>
-    </div>
-  );
-};
+export default function Hero() {
 
-export default Hero;
+    useEffect(() => {
+        Particles.init({
+            selector: ".background"
+        });
+
+        const particles = Particles.init({
+            selector: ".background",
+            color: ["#03dac6", "#ff0266", "#000000"],
+            connectParticles: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    options: {
+                        color: ["#faebd7", "#03dac6", "#ff0266"],
+                        maxParticles: 43,
+                        connectParticles: false
+                    }
+                }
+            ]
+        });
+    })
+
+    return (
+        <>
+            <section class="pbg bg-grad">
+                <div className="topText" style={{ marginBottom: '1.5em' }}>
+                    <h1 className="tech-head">Tech <span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
+                    <Glitch />
+                </div>
+            </section>
+            <canvas class="background"></canvas>
+        </>
+    )
+}

@@ -36,7 +36,7 @@ const Team = () => {
       lkdn: 'https://www.linkedin.com/',
     },
     {
-      img: "img/shaun.jpeg",
+      img: "img/zane.jpg",
       name: 'Zane Fernandes',
       role: 'Back End dev',
       inst: 'https://www.instagram.com/',
@@ -46,7 +46,7 @@ const Team = () => {
   ]
 
   return (
-    <div id='team' className='mt-10 dark'>
+    <div id='team' className='mt-10'>
       <h1 className='mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white'>Meet the Team</h1>
       <div className='my-7 mx-4 grid lg:grid-cols-5 md:grid-cols-3'>
         {
