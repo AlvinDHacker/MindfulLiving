@@ -3,7 +3,7 @@ import { Github } from "lucide-react";
 
 const ProjectItem = ({ name, img, desc, git }) => {
   return (
-    <div>
+    <div className="">
       <div className=" hover:shadow-2xl m-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img className="rounded-t-lg" src={img} alt="" />

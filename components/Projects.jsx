@@ -1,24 +1,22 @@
 import React from "react";
-import logo from "../assets/image.jpg"
-import inv from '../assets/invoicify.png'
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
     const data = [
         {
-            img: inv,
+            img: "img/invoicify.png",
             name: 'Invoicify',
             desc: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order',
             git: 'https://www.instagram.com/'
         },
         {
-            img: logo,
+            img: "img/polydine.jpeg",
             name: 'Polydine',
             desc: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order',
             git: 'https://github.com/Joyvin/Polydine'
         },
         {
-            img: logo,
+            img: "img/medinova.jpeg",
             name: 'Medinova',
             desc: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order',
             git: 'https://github.com/AlvinDHacker/Error_404_BroCodeEx_Medinova/tree/alston'

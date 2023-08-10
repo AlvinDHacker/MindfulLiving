@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
 import TeamItem from './TeamItem'
-import alvin from '../assets/alvin.jpg'
-import joy from '../assets/image.jpg'
-import jayden from '../assets/jayden.png'
-import shaun from '../assets/shaun.jpeg'
 
 const Team = () => {
   const data = [
@@ -16,7 +12,7 @@ const Team = () => {
       lkdn: 'https://www.linkedin.com/',
     },
     {
-      img: joy,
+      img: "img/image.jpg",
       name: 'Joyvin Mendonca',
       role: 'AI / ML dev',
       inst: 'https://www.instagram.com/',
@@ -24,7 +20,7 @@ const Team = () => {
       lkdn: 'https://www.linkedin.com/',
     },
     {
-      img: jayden,
+      img: "img/jayden.png",
       name: 'Jayden Colaco',
       role: 'Front End dev',
       inst: 'https://www.instagram.com/',
@@ -32,9 +28,17 @@ const Team = () => {
       lkdn: 'https://www.linkedin.com/',
     },
     {
-      img: shaun,
+      img: "img/shaun.jpeg",
       name: 'Shaun Mendes',
       role: 'Full stack dev',
+      inst: 'https://www.instagram.com/',
+      git: 'https://github.com/',
+      lkdn: 'https://www.linkedin.com/',
+    },
+    {
+      img: "img/shaun.jpeg",
+      name: 'Zane Fernandes',
+      role: 'Back End dev',
       inst: 'https://www.instagram.com/',
       git: 'https://github.com/',
       lkdn: 'https://www.linkedin.com/',
@@ -44,7 +48,7 @@ const Team = () => {
   return (
     <div id='team' className='mt-10 dark'>
       <h1 className='mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white'>Meet the Team</h1>
-      <div className='my-7 mx-4 grid lg:grid-cols-4 md:grid-cols-2'>
+      <div className='my-7 mx-4 grid lg:grid-cols-5 md:grid-cols-3'>
         {
           data.map((values, index) => (
             <TeamItem key={values.name} img={values.img} name={values.name} role={values.role} inst={values.inst} git={values.git} lkdn={values.lkdn} />

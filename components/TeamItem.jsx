@@ -3,8 +3,8 @@ import { Instagram, Github, Linkedin } from "lucide-react"
 
 const TeamItem = ({ name, img, role, inst, git, lkdn }) => {
   return (
-    <div>
-      <div className="w-full max-w-sm bg-white rounded-lg  dark:bg-gray-800">
+    <div className="">
+      <div className="w-full max-w-sm bg-white rounded-lg  dark:bg-transparent">
         <div className="flex flex-col items-center pb-10">
           <img
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
