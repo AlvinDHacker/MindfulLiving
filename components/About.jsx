@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="md:mt-[-80px]">
+    <div id="story" className="md:mt-[-80px]">
       <div className="md:block hidden">
         <div className="grid grid-cols-2">
           <img src="img/about.png" />
