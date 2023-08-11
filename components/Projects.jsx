@@ -24,7 +24,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="mx-10">
+    <div id="projects" className="mt-5 mx-10">
       <h1 className="mb-4 text-[38px] tracking-tight font-bold text-center text-gray-900 dark:text-white">
         Our <span className="text-[#2CC5B2]">Projects</span>
       </h1>
