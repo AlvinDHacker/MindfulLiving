@@ -89,7 +89,7 @@
 .layers::after {
   content: "Coding to perfection";
   position: absolute;
-  width: 110%;
+  width: 100%;
   z-index: -1;
 }
 
