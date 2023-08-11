@@ -26,22 +26,27 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li>
-                    <a href="https://flowbite.com/" className="hover:underline">
+                    <a href="#home">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" className="hover:underline">
+                    <a href="#story">
+                      Our Story
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#projects">
                       Projects
                     </a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" className="hover:underline">
+                    <a href="#team">
                       Team
                     </a>
                   </li>
                   <li>
-                    <a href="https://tailwindcss.com/" className="hover:underline">
+                    <a href="#contact" className="hover:underline">
                       Contacts
                     </a>
                   </li>
@@ -76,11 +81,11 @@ const Footer = () => {
               </a>
             </span>
             <div className="text-gray-500 dark:text-gray-400 font-medium flex space-x-5 md:mt-0 mt-3 sm:justify-center sm:mt-0">
-              <Github size={20}/>
-              <Linkedin size={20}/>
-              <Instagram size={20}/>
-              <Dribbble size={20}/>
-              <Facebook size={20}/>
+              <Github size={20} />
+              <Linkedin size={20} />
+              <Instagram size={20} />
+              <Dribbble size={20} />
+              <Facebook size={20} />
             </div>
           </div>
         </div>

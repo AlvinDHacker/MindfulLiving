@@ -27,7 +27,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="bg-grad">
+      <div className="bg-grad" id="home">
         <section class="pbg">
           <div className="topText" style={{ marginBottom: '1.5em' }}>
             <h1 className="md:text-[118px] text-[60px] tech-head">Tech <span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
