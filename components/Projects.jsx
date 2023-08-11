@@ -6,19 +6,19 @@ const Projects = () => {
     {
       img: "img/invoicify.png",
       name: "Invoicify",
-      desc: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order",
+      desc: "We at Invoicify mainly are a boon to all the CA's all around the world as we make their tedious and tiresome work into a simple and more efficient way for tax filing.",
       git: "https://github.com/Joyvin/Invoicify",
     },
     {
       img: "img/polydine.jpeg",
       name: "Polydine",
-      desc: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order",
+      desc: "Are we a calendar or some magic potion to make all your friends agree to the same date, time and place.",
       git: "https://github.com/Joyvin/Polydine",
     },
     {
       img: "img/medinova.jpeg",
       name: "Medinova",
-      desc: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order",
+      desc: "Medinova aim to improve security at hospitals by facially scanning every person entering hospitals so any mishaps in the hospital can easily be figured out.",
       git: "https://github.com/AlvinDHacker/Error_404_BroCodeEx_Medinova/tree/alston",
     },
   ];
