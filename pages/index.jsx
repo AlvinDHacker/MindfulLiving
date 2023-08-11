@@ -16,7 +16,7 @@ export default function Page() {
         <>
             <Navbar />
             <Hero />
-            <About/>
+            <About />
             <Projects />
             <Team />
             <Contact />
