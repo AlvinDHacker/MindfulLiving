@@ -47,7 +47,7 @@ const Team = () => {
 
   return (
     <div id='team' className='mt-10'>
-      <h1 className='mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white'>Meet the Team</h1>
+      <h1 className='mb-4 text-[38px] tracking-tight font-bold text-center text-gray-900 dark:text-white'>Meet the <span className="text-[#2CC5B2]">Team</span></h1>
       <div className='my-7 mx-4 grid lg:grid-cols-5 md:grid-cols-3'>
         {
           data.map((values, index) => (

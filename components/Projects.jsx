@@ -25,7 +25,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className="mx-10">
-            <h1 className='mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white'>Our Projects</h1>
+            <h1 className='mb-4 text-[38px] tracking-tight font-bold text-center text-gray-900 dark:text-white'>Our <span className="text-[#2CC5B2]">Projects</span></h1>
             <div className="grid md:grid-cols-3">
                 {
                     data.map((values) => (
