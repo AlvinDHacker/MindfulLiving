@@ -12,7 +12,7 @@ const Team = () => {
       lkdn: 'https://www.linkedin.com/',
     },
     {
-      img: "img/image.jpg",
+      img: "img/joy.jpeg",
       name: 'Joyvin Mendonca',
       role: 'AI / ML dev',
       inst: 'https://www.instagram.com/',

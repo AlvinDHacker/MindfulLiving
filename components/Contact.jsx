@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="grid md:grid-cols-3 ">
-        <div className="m-3">
+        <div className="mx-16 md:mt-10">
           <img src='img/contact.png' className="object-cover md:mt-10" />
         </div>
         <section className=" col-span-2 bg-white dark:bg-gray-900">

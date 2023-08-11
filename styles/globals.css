@@ -526,7 +526,7 @@
   animation: paths 5s step-end infinite;
   font-family: 'League Spartan', sans-serif;
   color: #fff;
-  font-size: 56px;
+  /* font-size: 56px; */
 }
 
 .glitch::before {
