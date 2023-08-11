@@ -10,14 +10,8 @@ import Team from "@/components/Team";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
-// import Scrollbar from "smooth-scrollbar";
-// import { useEffect } from "react";
 
 export default function Page() {
-  //   useEffect(() => {
-  //     Scrollbar.init(document.querySelector("#my-scrollbar"));
-  //   });
-
   return (
     <>
       <Navbar />
