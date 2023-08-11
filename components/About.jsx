@@ -21,7 +21,7 @@ const About = () => {
                 <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
               </svg>
               <p className=" text-left">
-                A dream doesn't become reality through magic, it takes sweat
+                A dream doesn&apos;t become reality through magic, it takes sweat
                 determination and hardwork. We are programmers with a dream, a
                 dream to change the world one line of code at a time. With
                 keyboards as our paintbrushes and screens as our canvas, we
@@ -50,7 +50,7 @@ const About = () => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <p className=" text-left">
-            A dream doesn't become reality through magic, it takes sweat
+            A dream doesn&apos;t become reality through magic, it takes sweat
             determination and hardwork. We are programmers with a dream, a dream
             to change the world one line of code at a time. With keyboards as
             our paintbrushes and screens as our canvas, we sculpt digital
