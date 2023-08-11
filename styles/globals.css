@@ -57,7 +57,7 @@
 
 .tie-head, .tech-head{
   font-family: 'League Spartan', sans-serif;
-  font-size: 118px;
+  /* font-size: 118px; */
   line-height: normal;
   color: #fff;
 }
@@ -68,14 +68,14 @@
 
 .colored-exclamation {
   position: relative;
-  font-size: 118px; /* Set the font size for the text */
+  /* font-size: 118px; Set the font size for the text */
   color: #2CC5B2;
 }
 
 .colored-exclamation::before {
   content: ".";
   position: absolute;
-  font-size: 118px; /* Set the font size for the exclamation mark's line */
+  /* font-size: 118px; Set the font size for the exclamation mark's line */
   color: #fff; /* Color for the exclamation mark's line */
 }
 

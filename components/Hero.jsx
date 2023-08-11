@@ -29,7 +29,7 @@ export default function Hero() {
         <>
             <section class="pbg bg-grad">
                 <div className="topText" style={{ marginBottom: '1.5em' }}>
-                    <h1 className="tech-head">Tech <span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
+                    <h1 className="md:text-[118px] text-[60px] tech-head">Tech <span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
                     <Glitch />
                 </div>
             </section>
