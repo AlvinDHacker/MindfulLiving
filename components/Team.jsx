@@ -4,20 +4,20 @@ import TeamItem from "./TeamItem";
 const Team = () => {
   const data = [
     {
-      img: "img/alvin.jpg",
-      name: "Alvin Dsouza",
-      role: "Full stack dev",
-      inst: "https://www.instagram.com/the.alvin.dsouza",
-      git: "https://github.com/AlvinDHacker",
-      lkdn: "https://www.linkedin.com/in/alvin-dsouza-a23268263/",
-    },
-    {
       img: "img/joy.jpeg",
       name: "Joyvin Mendonca",
       role: "AI / ML dev",
       inst: "https://www.instagram.com/joyvinmendonca/",
       git: "https://github.com/Joyvin",
       lkdn: "https://www.linkedin.com/in/joyvinmendonca/",
+    },
+    {
+      img: "img/alvin.jpg",
+      name: "Alvin Dsouza",
+      role: "Full stack dev",
+      inst: "https://www.instagram.com/the.alvin.dsouza",
+      git: "https://github.com/AlvinDHacker",
+      lkdn: "https://www.linkedin.com/in/alvin-dsouza-a23268263/",
     },
     {
       img: "img/jayden.png",
