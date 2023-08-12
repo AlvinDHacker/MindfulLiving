@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+              <a href="#" className="flex items-center">
                 <img
                   src="img/logobg.png"
                   className="h-10 mr-3"
@@ -26,24 +26,16 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li>
-                    <a href="#home">
-                      Home
-                    </a>
+                    <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#story">
-                      Our Story
-                    </a>
+                    <a href="#story">Our Story</a>
                   </li>
                   <li>
-                    <a href="#projects">
-                      Projects
-                    </a>
+                    <a href="#projects">Projects</a>
                   </li>
                   <li>
-                    <a href="#team">
-                      Team
-                    </a>
+                    <a href="#team">Team</a>
                   </li>
                   <li>
                     <a href="#contact" className="hover:underline">
@@ -58,13 +50,13 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <div className="flex mt-4 space-x-3 md:mt-6">
-                    <a href='#'>
+                    <a href="#">
                       <Instagram />
                     </a>
-                    <a href='#'>
+                    <a href="#">
                       <Github />
                     </a>
-                    <a href='#'>
+                    <a href="#">
                       <Linkedin />
                     </a>
                   </div>
