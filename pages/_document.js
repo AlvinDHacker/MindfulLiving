@@ -1,13 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { useEffect } from 'react';
-import { clarity } from 'react-microsoft-clarity';
 
 export default function Document() {
-
-  useEffect(()=>{
-    clarity.init("ig1hhuwm9l")
-  }, [])
-
   return (
     <Html lang="en">
       <Head>
