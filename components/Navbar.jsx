@@ -16,7 +16,7 @@ const Navbar = () => {
             <img
               src="img/logobg.png"
               className="h-8 mr-3"
-              alt="Tech Tietans"
+              alt="TechTieTans Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Tech TieTans
@@ -55,7 +55,7 @@ const Navbar = () => {
               //   id="drawer-navigation"
               className="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform bg-white w-64 dark:bg-gray-800"
               style={{ zIndex: "5" }}
-              // tabindex="-1"
+            // tabindex="-1"
             >
               <div className="py-4 overflow-y-auto">
                 <ul className="space-y-2 font-medium">
