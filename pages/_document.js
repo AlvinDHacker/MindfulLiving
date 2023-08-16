@@ -8,7 +8,7 @@ export default function Document() {
       <Head>
         <title>Tech Tietans</title>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-        <script defer type="text/javascript">
+        <script defer>
           {`(function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
               t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
