@@ -10,9 +10,9 @@ const About = () => {
             <h1 className="mb-4 ml-3 mt-3 text-[38px] tracking-tight font-bold text-gray-900 dark:text-white">
               Our <span className="text-[#2CC5B2]">Story</span>
             </h1>
-            <blockquote class="text-md mx-5 text-gray-900 dark:text-white">
+            <blockquote className="text-md mx-5 text-gray-900 dark:text-white">
               <svg
-                class="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
+                className="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -39,9 +39,9 @@ const About = () => {
           Our <span className="text-[#2CC5B2]">Story</span>
         </h1>
         <img src="img/about.png" />
-        <blockquote class="text-md mx-5 text-gray-900 dark:text-white">
+        <blockquote className="text-md mx-5 text-gray-900 dark:text-white">
           <svg
-            class="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
+            className="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

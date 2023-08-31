@@ -1,10 +1,10 @@
 import React from "react";
 import { Github } from "lucide-react";
 
-const ProjectItem = ({ name, img, desc, git }) => {
+const ProjectItem = ({ name, img, desc, git, colab}) => {
   return (
     <div className="my-3">
-      <div className=" hover:shadow-2xl m-3 h-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className=" hover:shadow-2xl mt-3 mx-3 h-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img className="rounded-t-lg" src={img} alt="" />
         </a>
@@ -25,6 +25,16 @@ const ProjectItem = ({ name, img, desc, git }) => {
               Know more
               <Github className="mx-2" />
             </a>
+            <div className="flex -space-x-4">
+              {colab.map((values) => (
+                <img
+                  className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                  src={values}
+                  alt=""
+                />
+                ))
+              }
+            </div>
           </div>
         </div>
       </div>
