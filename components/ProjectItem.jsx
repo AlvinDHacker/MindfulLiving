@@ -26,8 +26,9 @@ const ProjectItem = ({ name, img, desc, git, colab}) => {
               <Github className="mx-2" />
             </a>
             <div className="flex -space-x-4">
-              {colab.map((values) => (
+              {colab.map((values, index) => (
                 <img
+                  key={index}
                   className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
                   src={values}
                   alt=""

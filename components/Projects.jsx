@@ -64,9 +64,9 @@ const Projects = () => {
         Our <span className="text-[#2CC5B2]">Projects</span>
       </h1>
       <div className="grid md:grid-cols-3">
-        {data.map((values) => (
+        {data.map((values,index) => (
           <ProjectItem
-            key={values.name}
+            key={index}
             name={values.name}
             img={values.img}
             desc={values.desc}
