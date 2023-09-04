@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, Github, Linkedin, Dribbble, Facebook } from "lucide-react";
+import { Instagram, Github, Linkedin, Dribbble, Facebook, Youtube, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -73,11 +73,11 @@ const Footer = () => {
               </a>
             </span>
             <div className="text-gray-500 dark:text-gray-400 font-medium flex space-x-5 md:mt-0 mt-3 sm:justify-center sm:mt-0">
-              <Github size={20} />
-              <Linkedin size={20} />
-              <Instagram size={20} />
-              <Dribbble size={20} />
-              <Facebook size={20} />
+              <Github href='' size={20} />
+              <Linkedin href='' size={20} />
+              <Instagram href='' size={20} />
+              <Youtube href='' size={20} />
+              <Twitter href='' size={20} />
             </div>
           </div>
         </div>

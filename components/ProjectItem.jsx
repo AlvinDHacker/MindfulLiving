@@ -20,11 +20,13 @@ const ProjectItem = ({ name, img, desc, git, colab}) => {
           <div className="flex mt-4 justify-between md:mt-6">
             <a
               href={git}
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-800 dark:hover:bg-gray-900 dark:focus:ring-gray-900"
-            >
+              className="mt-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-gray-800 dark:hover:bg-gray-900 dark:focus:ring-gray-900"
+              >
               Know more
               <Github className="mx-2" />
             </a>
+            <div>
+              <p className="font-semibold">Collaborators</p>
             <div className="flex -space-x-4">
               {colab.map((values, index) => (
                 <img
@@ -35,6 +37,7 @@ const ProjectItem = ({ name, img, desc, git, colab}) => {
                 />
                 ))
               }
+            </div>
             </div>
           </div>
         </div>
