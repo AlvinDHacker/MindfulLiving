@@ -7,11 +7,8 @@ const Contact = () => {
   const [message, setMessage] = useState()
 
   const submitForm = async (e) => {
-  e.preventDefault();
-    const url = "/api/submitForm";
-    const data = {email: email, subject: subject, message: message}
-    console.log(data)
-    await axios.post(url, data).then((e) => {console.log(e.data)})
+    e.preventDefault();
+    
   }
 
   return (
@@ -46,7 +43,7 @@ const Contact = () => {
                   name="entry.71211008"
                   className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                   placeholder="name@xyz.com"
-                  onChange={(e)=>{setEmail(e.target.value)}}
+                  onChange={(e) => { setEmail(e.target.value) }}
                   required
                 />
               </div>
@@ -63,7 +60,7 @@ const Contact = () => {
                   name="entry.1644954532"
                   className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                   placeholder="Let us know how we can help you"
-                  onChange={(e)=>{setSubject(e.target.value)}}
+                  onChange={(e) => { setSubject(e.target.value) }}
                   required
                 />
               </div>
@@ -80,7 +77,7 @@ const Contact = () => {
                   rows="3"
                   className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                   placeholder="Leave a comment..."
-                  onChange={(e)=>{setMessage(e.target.value)}}
+                  onChange={(e) => { setMessage(e.target.value) }}
                 ></textarea>
               </div>
               <button
