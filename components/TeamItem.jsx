@@ -1,7 +1,7 @@
 import React from "react";
-import { Instagram, Github, Linkedin } from "lucide-react"
+import { Instagram, Github, Linkedin, Globe } from "lucide-react"
 
-const TeamItem = ({ name, img, role, inst, git, lkdn }) => {
+const TeamItem = ({ name, img, role, inst, git, lkdn, web }) => {
   return (
     <div className="">
       <div className="w-full max-w-sm bg-white rounded-lg  dark:bg-transparent">
@@ -26,6 +26,9 @@ const TeamItem = ({ name, img, role, inst, git, lkdn }) => {
             </a>
             <a href={lkdn}>
               <Linkedin />
+            </a>
+            <a href={web}>
+              <Globe/>
             </a>
 
           </div>

@@ -25,7 +25,7 @@ const ProjectItem = ({ name, img, desc, git, colab }) => {
 							Know more
 							<Github className="mx-2" />
 						</a>
-						<div>
+						{/* <div>
 							<p className="font-semibold">Collaborators</p>
 							<div className="flex -space-x-4">
 								{colab.map((values, index) => (
@@ -37,7 +37,7 @@ const ProjectItem = ({ name, img, desc, git, colab }) => {
 									/>
 								))}
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

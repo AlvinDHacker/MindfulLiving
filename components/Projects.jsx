@@ -52,7 +52,7 @@ const Projects = () => {
 			<h1 className="mb-4 text-[38px] tracking-tight font-bold text-center text-gray-900 dark:text-white">
 				Our <span className="text-[#2CC5B2]">Projects</span>
 			</h1>
-			<div className="grid md:grid-cols-3 gap-8">
+			<div className=" md:w-[85%] mx-auto grid md:grid-cols-3 gap-1">
 				{data.map((values, index) => (
 					<ProjectItem
 						key={index}
