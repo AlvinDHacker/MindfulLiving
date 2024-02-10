@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, Github, Linkedin, Dribbble, Facebook, Youtube, Twitter } from "lucide-react";
+import { Instagram, Github, Linkedin, Leaf, Facebook, Youtube, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,14 +8,10 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="#" className="flex items-center">
-                <img
-                  src="img/logobg.png"
-                  className="h-10 mr-3"
-                  alt="TechTietans Logo"
-                />
+              <a href="#" className="flex items-center gap-3">
+                <Leaf className="text-white"/>
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Tech TieTans
+                  Mindful Living
                 </span>
               </a>
             </div>
@@ -29,13 +25,13 @@ const Footer = () => {
                     <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#story">Our Story</a>
+                    <a href="#about">About</a>
                   </li>
                   <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#principles">Principles</a>
                   </li>
                   <li>
-                    <a href="#team">Team</a>
+                    <a href="#resources">Resources</a>
                   </li>
                   <li>
                     <a href="#contact" className="hover:underline">
@@ -67,9 +63,9 @@ const Footer = () => {
           <hr className="my-6 border-gray-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2023{" "}
+              © 2024{" "}
               <a href="#" className="hover:underline">
-                Tech Tietans™
+                Mindful Living™
               </a>
             </span>
             <div className="text-gray-500 dark:text-gray-400 font-medium flex space-x-5 md:mt-0 mt-3 sm:justify-center sm:mt-0">

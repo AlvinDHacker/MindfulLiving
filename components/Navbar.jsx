@@ -1,4 +1,4 @@
-import { BookOpen, FolderOpen, Home, Phone, Users2 } from "lucide-react";
+import { Leaf, FolderOpen, Home, Phone, Users2 } from "lucide-react";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -12,14 +12,10 @@ const Navbar = () => {
     <div className="dark w-full fixed" style={{ zIndex: "5" }}>
       <nav className="bg-white sticky top-0 border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center">
-            <img
-              src="img/logobg.png"
-              className="h-8 mr-3"
-              alt="TechTieTans Logo"
-            />
+          <a href="#" className="flex items-center gap-3">
+          <Leaf className="text-white"/>
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Tech TieTans
+              Mindful Living
             </span>
           </a>
           <button
@@ -71,37 +67,37 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#story"
-                      className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-                      onClick={handleNav}
-                    >
-                      <BookOpen />
-                      <span className="flex-1 ml-3 whitespace-nowrap">
-                        Our Story
-                      </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#projects"
-                      className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-                      onClick={handleNav}
-                    >
-                      <FolderOpen />
-                      <span className="flex-1 ml-3 whitespace-nowrap">
-                        Projects
-                      </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#team"
+                      href="#about"
                       className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                       onClick={handleNav}
                     >
                       <Users2 />
                       <span className="flex-1 ml-3 whitespace-nowrap">
-                        Team
+                        About
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#principles"
+                      className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                      onClick={handleNav}
+                    >
+                      <FolderOpen />
+                      <span className="flex-1 ml-3 whitespace-nowrap">
+                        Principles
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#resources"
+                      className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                      onClick={handleNav}
+                    >
+                      <Users2 />
+                      <span className="flex-1 ml-3 whitespace-nowrap">
+                        Resources
                       </span>
                     </a>
                   </li>
@@ -138,26 +134,26 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#story"
+                  href="#about"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Story
+                  About
                 </a>
               </li>
               <li>
                 <a
-                  href="#projects"
+                  href="#principles"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Projects
+                  Principles
                 </a>
               </li>
               <li>
                 <a
-                  href="#team"
+                  href="#resources"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Team
+                  Resources
                 </a>
               </li>
               <li>

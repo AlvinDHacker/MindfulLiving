@@ -1,43 +1,12 @@
 import React, { useState } from "react";
-import axios from "axios";
-import { MailCheck } from "lucide-react";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
 	const [email, setEmail] = useState();
 	const [subject, setSubject] = useState();
 	const [message, setMessage] = useState();
 
-	const submitForm = async (e) => {
+	const submitForm = (e) => {
 		e.preventDefault();
-
-		const id = toast.loading("Please wait...");
-		await axios
-			.post("/api/sendEmail", {
-				email: email,
-				subject: subject,
-				message: message,
-			})
-			.then((e) => {
-				toast.update(id, {
-					render: e.data.message,
-					position: "top-right",
-					autoClose: 5000,
-					hideProgressBar: false,
-					closeOnClick: true,
-					pauseOnHover: true,
-					draggable: true,
-					progress: undefined,
-					isLoading: false,
-					icon: ({ theme, type }) => (
-						<MailCheck className="text-[#2CC5B2]" />
-					),
-				});
-				setEmail("");
-				setMessage("");
-				setSubject("");
-			});
 	};
 
 	return (
@@ -55,9 +24,8 @@ const Contact = () => {
 							Contact <span className="text-[#2CC5B2]">Us</span>
 						</h2>
 						<p className="mb-3 lg:mb-5 font-light text-center text-gray-500 dark:text-gray-400 sm:text-lg">
-							Got a technical issue? Want to send feedback about a
-							beta feature? Need details about our Business plan?
-							Let us know.
+							Want to get to know us better ?
+							Send a message, we&apos;ll be right back 
 						</p>
 						<form onSubmit={submitForm} className="space-y-3">
 							<div>
@@ -129,17 +97,6 @@ const Contact = () => {
 					</div>
 				</section>
 			</div>
-			<ToastContainer
-				position="top-right"
-				autoClose={5000}
-				hideProgressBar={false}
-				newestOnTop={false}
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss
-				draggable
-				pauseOnHover
-			/>
 		</div>
 	);
 };

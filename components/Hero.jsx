@@ -1,42 +1,52 @@
-import { useEffect } from "react"
-import Glitch from "./Glitch";
+import react from "react";
 
 export default function Hero() {
-
-  useEffect(() => {
-    Particles.init({
-      selector: ".background"
-    });
-
-    const particles = Particles.init({
-      selector: ".background",
-      color: ["#03dac6", "#ff0266", "#000000"],
-      connectParticles: true,
-      responsive: [
-        {
-          breakpoint: 768,
-          options: {
-            color: ["#faebd7", "#03dac6", "#ff0266"],
-            maxParticles: 43,
-            connectParticles: false
-          }
-        }
-      ]
-    });
-  })
-
   return (
     <>
-      <div className="bg-grad" id="home">
-        <section className="pbg">
-          <div className="topText" style={{ marginBottom: '1.5em' }}>
-            <h1 className="md:text-[118px] text-[60px] tech-head">Tech <span className="tie-head">Tie</span>tans<span className="ml-2 colored-exclamation">!</span></h1>
-            <Glitch />
+      <section id="home" className="bg-center bg-no-repeat bg-[url('/img/peaceful.jpg')] bg-gray-500 bg-blend-multiply">
+        <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+            We focus towards Mindful Living
+          </h1>
+          <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+            Mindful living entails consciously paying attention to the present
+            moment without judgment, fostering a deeper connection with oneself
+            and the surrounding environment. It involves cultivating awareness
+            through practices like meditation, mindful breathing, and
+            non-judgmental acceptance, leading to greater contentment and
+            fulfillment in daily life.
+          </p>
+          <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a
+              href="#about"
+              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            >
+              About Us
+              <svg
+                className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+            <a
+              href="#principles"
+              className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+            >
+              Our Principles
+            </a>
           </div>
-        </section>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L48,37.3C96,75,192,149,288,160C384,171,480,117,576,85.3C672,53,768,43,864,64C960,85,1056,139,1152,160C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-      </div>
-      <canvas className="background"></canvas>
+        </div>
+      </section>
     </>
-  )
+  );
 }
