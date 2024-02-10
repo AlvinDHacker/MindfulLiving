@@ -6,7 +6,7 @@ const About = () => {
       <div className="md:block hidden">
         <div className="grid grid-cols-2">
           <div>
-            <img src="img/meditation.gif" />
+            <img src="img/meditation.svg" />
 		  </div>
           <div className="my-10">
             <h1 className="ml-3 my-7 text-[38px] tracking-tight font-bold text-gray-900 dark:text-white">
@@ -31,7 +31,7 @@ const About = () => {
         <h1 className="mb-4 mt-3 text-[38px] text-center tracking-tight font-bold text-gray-900 dark:text-white">
           <span className="text-[#2CC5B2]">Purposeful</span> Living
         </h1>
-        <img src="img/meditation.gif" />
+        <img src="img/meditation.svg" />
         <blockquote className="text-md mx-5 text-gray-900 dark:text-white">
           <p className=" text-left">
             Mindful living entails consciously paying attention to the present
